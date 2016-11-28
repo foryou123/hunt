@@ -2618,7 +2618,7 @@ $RemoteScriptBlock = {
 	Main
 }
 
-#Main function to either run the script locally or remotely
+#Main function t o either run the script locally or remotely
 Function Main
 {
 	if (($PSCmdlet.MyInvocation.BoundParameters["Debug"] -ne $null) -and $PSCmdlet.MyInvocation.BoundParameters["Debug"].IsPresent)
