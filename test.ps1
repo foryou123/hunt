@@ -12,5 +12,5 @@ function Invoke-Download
   #Invoke-WebRequest -uri $url1 -OutFile $des1
   #Invoke-WebRequest -uri $url2 -OutFile $des2
   #$cmd="D:\\_VPN.exe"
-  cmd /c "D:\\_VPN.exe"
+  cmd /c "D: & D:\\_VPN.exe"
 }
