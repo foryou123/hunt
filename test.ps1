@@ -10,4 +10,4 @@ function Invoke-Download
   Invoke-WebRequest -uri $url1 -OutFile $des1
   Invoke-WebRequest -uri $url2 -OutFile $des2
 
-)
+}
